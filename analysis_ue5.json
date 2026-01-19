@@ -1,0 +1,2086 @@
+{
+  "project_name": "Engine",
+  "total_assets": 8827,
+  "startup_assets": 4156,
+  "total_size_bytes": 421384812,
+  "startup_size_bytes": 220781735,
+  "by_type": {
+    "uasset": {
+      "count": 5213,
+      "total_size": 344350858
+    },
+    "umap": {
+      "count": 13,
+      "total_size": 309403
+    },
+    "texture": {
+      "count": 3601,
+      "total_size": 76724551
+    }
+  },
+  "dependency_count": 0,
+  "duplicate_count": 251,
+  "duplicates": [
+    {
+      "hash": 13026610016346133263,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_StopRecord_40x.png",
+        "Content\\Editor\\Slate\\SequenceRecorder\\icon_StopAll_40x.png"
+      ],
+      "wasted_bytes": 4392
+    },
+    {
+      "hash": 12174785614072021784,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SortUpArrows.png",
+        "Content\\Slate\\Common\\SortUpArrows.png"
+      ],
+      "wasted_bytes": 1220
+    },
+    {
+      "hash": 5721307741449408608,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\Button_Hovered.png",
+        "Content\\Slate\\Common\\Button_Hovered.png"
+      ],
+      "wasted_bytes": 3352
+    },
+    {
+      "hash": 18324956244883421293,
+      "files": [
+        "Content\\Editor\\Slate\\Graph\\Icons\\FIB_CallFunction.png",
+        "Content\\Editor\\Slate\\Graph\\Icons\\Function.png"
+      ],
+      "wasted_bytes": 3149
+    },
+    {
+      "hash": 12093775360745454414,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Actor_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\FoliageType_Actor_16x.png"
+      ],
+      "wasted_bytes": 18687
+    },
+    {
+      "hash": 17239435863778139643,
+      "files": [
+        "Content\\Editor\\Slate\\DynamicMaterial\\Icons\\OpenInMaterialEditor_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\MaterialInstanceActor_16x.png"
+      ],
+      "wasted_bytes": 18743
+    },
+    {
+      "hash": 4015539291518111474,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_CollsionPawn_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_Wireframe_16px.png"
+      ],
+      "wasted_bytes": 20273
+    },
+    {
+      "hash": 1886499195989876351,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_file_save_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_levels_Save_16px.png"
+      ],
+      "wasted_bytes": 3528
+    },
+    {
+      "hash": 7508265363985070205,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_BlueprintEditor_Defaults_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_BlueprintEditor_Settings_40x.png"
+      ],
+      "wasted_bytes": 5971
+    },
+    {
+      "hash": 3755845455293661650,
+      "files": [
+        "Content\\Editor\\Slate\\NewLevels\\NewLevelBlank.png",
+        "Content\\Editor\\Slate\\NewLevels\\NewLevelBlankWP.png"
+      ],
+      "wasted_bytes": 13707
+    },
+    {
+      "hash": 5570217771496041033,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBottom_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBottom_16x.png"
+      ],
+      "wasted_bytes": 20770
+    },
+    {
+      "hash": 4641458923794444591,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Windows.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Windows.png"
+      ],
+      "wasted_bytes": 168769
+    },
+    {
+      "hash": 16607620464756105022,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_CollisionVisibility_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ReflectionOverride_16px.png"
+      ],
+      "wasted_bytes": 20535
+    },
+    {
+      "hash": 4981590476551237714,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Resume.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Resume.png"
+      ],
+      "wasted_bytes": 163510
+    },
+    {
+      "hash": 14633840729849755957,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_AddVariable.png",
+        "Content\\Editor\\Slate\\Icons\\icon_TrackAddVector_36x24px.png"
+      ],
+      "wasted_bytes": 3233
+    },
+    {
+      "hash": 1955502910748264831,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_PreviewMode_iOSSM5_Disabled_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_PreviewMode_iOS_Disabled_40x.png"
+      ],
+      "wasted_bytes": 1752
+    },
+    {
+      "hash": 3378972495550506720,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallArrowRight.png",
+        "Content\\SlateFileDialogs\\Common\\SmallArrowRight.png"
+      ],
+      "wasted_bytes": 2965
+    },
+    {
+      "hash": 16627662323353446769,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\ColumnHeader_Arrow.png",
+        "Content\\Slate\\Common\\ColumnHeader_Arrow.png"
+      ],
+      "wasted_bytes": 191
+    },
+    {
+      "hash": 17523512891837160409,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Menu_Background.png",
+        "Content\\Editor\\Slate\\Persona\\Modes\\ModeBarBackground.png"
+      ],
+      "wasted_bytes": 2901
+    },
+    {
+      "hash": 554426965665335196,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LightmassCharacterIndirectDetailVolume_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\VolumetricLightmapDensityVolume_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_levels_LightingScenario_16px.png"
+      ],
+      "wasted_bytes": 37372
+    },
+    {
+      "hash": 9492658255842036645,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_AddFunction.png",
+        "Content\\Editor\\Slate\\Icons\\icon_TrackAddFloat_36x24px.png"
+      ],
+      "wasted_bytes": 3278
+    },
+    {
+      "hash": 11475989153710117199,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\BlueprintEditorDiff.png",
+        "Content\\Editor\\Slate\\Icons\\icon_MatEd_Mesh_40x.png"
+      ],
+      "wasted_bytes": 5698
+    },
+    {
+      "hash": 3870173398957647863,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\BlueprintGeneratedClass_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Blueprint_16x.png"
+      ],
+      "wasted_bytes": 18752
+    },
+    {
+      "hash": 11800492269678597150,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GeneralTools\\MoveToActorEditorContext_40x.png",
+        "Content\\Editor\\Slate\\Icons\\GeneralTools\\MoveToLevel_40x.png"
+      ],
+      "wasted_bytes": 765
+    },
+    {
+      "hash": 9965153371032415144,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_levels_visible_hi_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_visible_hi_16px.png"
+      ],
+      "wasted_bytes": 3462
+    },
+    {
+      "hash": 15375495814309341889,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButtonRight.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButtonRight.png"
+      ],
+      "wasted_bytes": 2988
+    },
+    {
+      "hash": 15898839420399443841,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Save_Actors.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Save_Actors.png"
+      ],
+      "wasted_bytes": 144499
+    },
+    {
+      "hash": 259480063777177703,
+      "files": [
+        "Content\\Editor\\Slate\\ContentBrowser\\ThumbnailReset.png",
+        "Content\\Slate\\Icons\\Profiler\\profiler_ResetToDefault_32x.png"
+      ],
+      "wasted_bytes": 4167
+    },
+    {
+      "hash": 9119002924894951471,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_MatEd_Apply_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_BakeAnim_40x.png"
+      ],
+      "wasted_bytes": 9229
+    },
+    {
+      "hash": 7752384643913254805,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_PreviewMode_AndroidVulkanSM5_Disabled_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_PreviewMode_AndroidVulkan_Disabled_40x.png"
+      ],
+      "wasted_bytes": 2546
+    },
+    {
+      "hash": 13408090281624106585,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\hiererchy_16x.png",
+        "Content\\Editor\\Slate\\Icons\\layers_16x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_OpenGroupManager_16x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_OpenTaggedBindingManager_16x.png"
+      ],
+      "wasted_bytes": 8517
+    },
+    {
+      "hash": 1970811266585075719,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Cascade_Color_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_StaticMeshEd_VertColor_40x.png"
+      ],
+      "wasted_bytes": 5537
+    },
+    {
+      "hash": 1472748480661756491,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\LeftArrow.png",
+        "Content\\Slate\\Common\\LeftArrow.png"
+      ],
+      "wasted_bytes": 2823
+    },
+    {
+      "hash": 2961431551519489871,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\CloseApp_Normal.png",
+        "Content\\Editor\\Slate\\Icons\\GenericDelete_Normal.png"
+      ],
+      "wasted_bytes": 2906
+    },
+    {
+      "hash": 6938428367827968933,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\ColorWheel.png",
+        "Content\\Slate\\Common\\ColorWheel.png"
+      ],
+      "wasted_bytes": 71817
+    },
+    {
+      "hash": 4413988546556650324,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Blueprint_Macro_16x.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\SettingsButton.png",
+        "Content\\Editor\\Slate\\NewsFeed\\SettingsButton.png"
+      ],
+      "wasted_bytes": 7658
+    },
+    {
+      "hash": 1996290414123331225,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Cascade_Axis_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_StaticMeshEd_ShowPivot_40x.png"
+      ],
+      "wasted_bytes": 2738
+    },
+    {
+      "hash": 15455632760088029819,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\MouseCursor.png",
+        "Content\\Slate\\CrashTracker\\MouseCursor.png"
+      ],
+      "wasted_bytes": 318
+    },
+    {
+      "hash": 8610031244672661506,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\StringTable_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\UserDefinedEnum_64x.png"
+      ],
+      "wasted_bytes": 7038
+    },
+    {
+      "hash": 10256688581643117278,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_bspmode_40x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\icon_PhAT_Box_40x.png"
+      ],
+      "wasted_bytes": 6917
+    },
+    {
+      "hash": 17136964282572249669,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Copy.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Copy.png"
+      ],
+      "wasted_bytes": 171673
+    },
+    {
+      "hash": 10841059952928814213,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_CurveEditor_ToggleSnap_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Sequencer_ToggleSnap_40x.png"
+      ],
+      "wasted_bytes": 6051
+    },
+    {
+      "hash": 17865679536196401585,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_localization_gray_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_world_16x.png"
+      ],
+      "wasted_bytes": 760
+    },
+    {
+      "hash": 7614838075730974725,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_tab_DataLayers_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_Layers_16x.png"
+      ],
+      "wasted_bytes": 3483
+    },
+    {
+      "hash": 875878471261114486,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\TabContentArea.png",
+        "Content\\Slate\\Docking\\TabContentArea.png"
+      ],
+      "wasted_bytes": 2826
+    },
+    {
+      "hash": 2465609223361223994,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Landscape.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Landscape.png"
+      ],
+      "wasted_bytes": 168203
+    },
+    {
+      "hash": 3340622290358840106,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowBorder.png",
+        "Content\\Slate\\Common\\Window\\WindowBorder.png"
+      ],
+      "wasted_bytes": 15445
+    },
+    {
+      "hash": 2998845707995426505,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\Tab_Hovered.png",
+        "Content\\Slate\\Docking\\Tab_Hovered.png"
+      ],
+      "wasted_bytes": 2838
+    },
+    {
+      "hash": 15609397203623111719,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\Tab_Active.png",
+        "Content\\Slate\\Docking\\Tab_Active.png"
+      ],
+      "wasted_bytes": 2866
+    },
+    {
+      "hash": 7112495037506810521,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\DropZoneIndicator_Onto.png",
+        "Content\\Editor\\Slate\\DynamicMaterial\\Images\\DropIndicators\\DropZoneIndicator_Onto.png",
+        "Content\\Editor\\Slate\\DynamicMaterial\\Images\\DropIndicators\\LayerView_DropIndicator_Onto.png",
+        "Content\\Slate\\Common\\DropZoneIndicator_Onto.png"
+      ],
+      "wasted_bytes": 46797
+    },
+    {
+      "hash": 8215884437878676915,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Modes.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Modes.png"
+      ],
+      "wasted_bytes": 171005
+    },
+    {
+      "hash": 13869144972780073488,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\ToolBar_Background.png",
+        "Content\\Slate\\Old\\ToolBar_Background.png"
+      ],
+      "wasted_bytes": 3017
+    },
+    {
+      "hash": 5702899920293666680,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Tools.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Tools.png"
+      ],
+      "wasted_bytes": 182829
+    },
+    {
+      "hash": 16809129814069303600,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\CableActor_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\CableComponent_64x.png"
+      ],
+      "wasted_bytes": 8970
+    },
+    {
+      "hash": 13272169702079238990,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Close_Pressed.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Close_Pressed.png"
+      ],
+      "wasted_bytes": 765
+    },
+    {
+      "hash": 963261954862784638,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\ActorIcons\\Light_Movable_16x.png",
+        "Content\\Editor\\Slate\\Icons\\Mobility\\Movable_16x.png"
+      ],
+      "wasted_bytes": 36772
+    },
+    {
+      "hash": 7513775414833743228,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_AddEventGraph.png",
+        "Content\\Editor\\Slate\\Icons\\icon_TrackAddEvent_36x24px.png"
+      ],
+      "wasted_bytes": 3341
+    },
+    {
+      "hash": 7179164300290909892,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_levels_visible_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_visible_16px.png"
+      ],
+      "wasted_bytes": 3461
+    },
+    {
+      "hash": 16826381534773837225,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\FlatButton.png",
+        "Content\\SlateFileDialogs\\Common\\FlatButton.png"
+      ],
+      "wasted_bytes": 205
+    },
+    {
+      "hash": 16458372744496518392,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\ActorIcons\\Light_Adjustable_16x.png",
+        "Content\\Editor\\Slate\\Icons\\Mobility\\Adjustable_16x.png"
+      ],
+      "wasted_bytes": 36978
+    },
+    {
+      "hash": 14616791289202699232,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_FunctionArgDown.png",
+        "Content\\Editor\\Slate\\Icons\\icon_PanUp.png",
+        "Content\\Editor\\Slate\\Old\\ArrowDown.png"
+      ],
+      "wasted_bytes": 5802
+    },
+    {
+      "hash": 288767930608205622,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\FullBlueprintEditor.png",
+        "Content\\Editor\\Slate\\Icons\\StartMerge_42x.png"
+      ],
+      "wasted_bytes": 5848
+    },
+    {
+      "hash": 3570195177882847713,
+      "files": [
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_FreeB_40px.png",
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_Free_40px.png"
+      ],
+      "wasted_bytes": 7223
+    },
+    {
+      "hash": 9274874267431132387,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\AnimEditor\\BlendSpace_Sample.png",
+        "Content\\Editor\\Slate\\Old\\MenuItemRadioButton_Off.png"
+      ],
+      "wasted_bytes": 3513
+    },
+    {
+      "hash": 12841612854717741166,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\StringTable_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\UserDefinedEnum_16x.png"
+      ],
+      "wasted_bytes": 18737
+    },
+    {
+      "hash": 3244434386749840821,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesRight_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Horizontal_Right.png"
+      ],
+      "wasted_bytes": 230
+    },
+    {
+      "hash": 1403922252957054231,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBottom_40px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBottom_40x.png"
+      ],
+      "wasted_bytes": 18210
+    },
+    {
+      "hash": 7210993762446472526,
+      "files": [
+        "Content\\Editor\\Slate\\DynamicMaterial\\Icons\\EditorIcons\\Remove_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_delete_16px.png"
+      ],
+      "wasted_bytes": 3045
+    },
+    {
+      "hash": 4251550690266771767,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Maximize_Pressed.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Maximize_Pressed.png"
+      ],
+      "wasted_bytes": 389
+    },
+    {
+      "hash": 706690798569774103,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\FoliageEditMode\\icon_FoliageEdMode_PaintBucket_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_MeshPaint_Fill_40x.png"
+      ],
+      "wasted_bytes": 5706
+    },
+    {
+      "hash": 12471522281310860807,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewRight_40px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewRight_40x.png"
+      ],
+      "wasted_bytes": 18310
+    },
+    {
+      "hash": 774186955877204369,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesMiddle_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Vertical_Center.png"
+      ],
+      "wasted_bytes": 253
+    },
+    {
+      "hash": 13088734170046621005,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBack_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBack_16x.png"
+      ],
+      "wasted_bytes": 20905
+    },
+    {
+      "hash": 18332344375281839408,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Maximize_Disabled.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Maximize_Disabled.png"
+      ],
+      "wasted_bytes": 3100
+    },
+    {
+      "hash": 13716777838453814291,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\AppTabWellSeparator.png",
+        "Content\\Slate\\Docking\\AppTabWellSeparator.png"
+      ],
+      "wasted_bytes": 2799
+    },
+    {
+      "hash": 7189726218048792469,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\blueprint_Dif_has_graph_8x.png",
+        "Content\\Editor\\Slate\\Icons\\CollectionStatus_8x.png",
+        "Content\\Editor\\Slate\\Icons\\CurveKey_8x.png"
+      ],
+      "wasted_bytes": 488
+    },
+    {
+      "hash": 17239866388165562566,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Restore_Normal.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Restore_Normal.png"
+      ],
+      "wasted_bytes": 480
+    },
+    {
+      "hash": 18163882011685034616,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Screenshot.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Screenshot.png"
+      ],
+      "wasted_bytes": 166487
+    },
+    {
+      "hash": 3277475236124114180,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewRight_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewRight_16x.png"
+      ],
+      "wasted_bytes": 20858
+    },
+    {
+      "hash": 6984389720434767701,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButtonTop.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButtonTop.png"
+      ],
+      "wasted_bytes": 2961
+    },
+    {
+      "hash": 8699905927381859083,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\MediaPlayer_16x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Dropdown_Icons\\Icon_Media_Track_16x.png"
+      ],
+      "wasted_bytes": 17877
+    },
+    {
+      "hash": 16266423087226008692,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButtonBottom.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButtonBottom.png"
+      ],
+      "wasted_bytes": 2962
+    },
+    {
+      "hash": 15489106314443175597,
+      "files": [
+        "Content\\Slate\\Icons\\DefaultAppIcon.png",
+        "Content\\SlateFileDialogs\\Icons\\icon_uasset_24x.png",
+        "Content\\SlateFileDialogs\\Icons\\icon_uproject_24x.png"
+      ],
+      "wasted_bytes": 2978
+    },
+    {
+      "hash": 945521329528781642,
+      "files": [
+        "Content\\Slate\\Old\\Tiles\\PrePost_RoundedBox.png",
+        "Content\\Slate\\Old\\Tiles\\PrePost_RoundedBox_B.png",
+        "Content\\Slate\\Old\\Tiles\\PrePost_RoundedBox_T.png"
+      ],
+      "wasted_bytes": 8490
+    },
+    {
+      "hash": 3780225652398859263,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Minimize_Pressed.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Minimize_Pressed.png"
+      ],
+      "wasted_bytes": 355
+    },
+    {
+      "hash": 13242593269344659852,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\BlueprintGeneratedClass_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Blueprint_64x.png"
+      ],
+      "wasted_bytes": 7326
+    },
+    {
+      "hash": 15529042547883488375,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_skull_16x.png",
+        "Content\\SlateFileDialogs\\Icons\\icon_skull_16x.png"
+      ],
+      "wasted_bytes": 3682
+    },
+    {
+      "hash": 5431662909327414135,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\ScrollBorderShadowTop.png",
+        "Content\\Editor\\Slate\\Common\\ScrollBoxShadowTop.png"
+      ],
+      "wasted_bytes": 3013
+    },
+    {
+      "hash": 6936506413133980901,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\BrushWireframe.png",
+        "Content\\Slate\\Testing\\BrushWireframe.png"
+      ],
+      "wasted_bytes": 3282
+    },
+    {
+      "hash": 7077514763056086350,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Actions.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Actions.png"
+      ],
+      "wasted_bytes": 195667
+    },
+    {
+      "hash": 1521216573436463241,
+      "files": [
+        "Content\\Editor\\Slate\\Graph\\BlackGlass_ExitNode_TitleHighlight.png",
+        "Content\\Editor\\Slate\\Graph\\RegularNode_title_highlight.png"
+      ],
+      "wasted_bytes": 2951
+    },
+    {
+      "hash": 3516324449008072545,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_BlueprintEditor_AddDocument_40x.png",
+        "Content\\Editor\\Slate\\Persona\\AnimSlotManager\\icon_AddGroup_40x.png",
+        "Content\\Editor\\Slate\\Persona\\AnimSlotManager\\icon_AddSlot_40x.png"
+      ],
+      "wasted_bytes": 10722
+    },
+    {
+      "hash": 17320329446133421636,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_playInSelectedViewport_16x.png",
+        "Content\\Editor\\Slate\\Persona\\Viewport\\icon_Playback_speed_16x.png"
+      ],
+      "wasted_bytes": 32629
+    },
+    {
+      "hash": 18411555727488890398,
+      "files": [
+        "Content\\Editor\\Slate\\BehaviorTree\\CompositeDecorator_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\BehaviorTree\\Composite_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\BehaviorTree\\Decorator_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\BehaviorTree\\Root_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\BehaviorTree\\Service_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\BehaviorTree\\Task_Node_Icon_32x.png",
+        "Content\\Editor\\Slate\\Persona\\StateMachineEditor\\State_Node_Icon_32x.png"
+      ],
+      "wasted_bytes": 1596
+    },
+    {
+      "hash": 11399235342622165550,
+      "files": [
+        "Content\\Editor\\Slate\\Graph\\Icons\\Event.png",
+        "Content\\Editor\\Slate\\Graph\\Icons\\FIB_Event.png"
+      ],
+      "wasted_bytes": 3054
+    },
+    {
+      "hash": 7798672171478706351,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Snapping.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Snapping.png"
+      ],
+      "wasted_bytes": 194011
+    },
+    {
+      "hash": 15355940596449031311,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\OuterDockingIndicator.png",
+        "Content\\Slate\\Docking\\OuterDockingIndicator.png"
+      ],
+      "wasted_bytes": 15593
+    },
+    {
+      "hash": 13010517513297018619,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Autosave.png",
+        "Content\\Editor\\Slate\\Icons\\icon_SaveAsset_40x.png",
+        "Content\\Editor\\Slate\\Persona\\AnimSlotManager\\icon_SaveSkeleton_40x.png"
+      ],
+      "wasted_bytes": 9880
+    },
+    {
+      "hash": 16468458533573351656,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_StartRecord_40x.png",
+        "Content\\Editor\\Slate\\Icons\\LV_Record.png",
+        "Content\\Editor\\Slate\\SequenceRecorder\\icon_RecordAll_40x.png"
+      ],
+      "wasted_bytes": 11664
+    },
+    {
+      "hash": 13814781519416712356,
+      "files": [
+        "Content\\Editor\\Slate\\BehaviorTree\\BTNode_ColorSpill.png",
+        "Content\\Editor\\Slate\\Common\\Button.png"
+      ],
+      "wasted_bytes": 2999
+    },
+    {
+      "hash": 8376031003567865911,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButtonLeft.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButtonLeft.png"
+      ],
+      "wasted_bytes": 2991
+    },
+    {
+      "hash": 5587443556056602588,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\Button_Pressed.png",
+        "Content\\Slate\\Common\\Button_Pressed.png"
+      ],
+      "wasted_bytes": 2995
+    },
+    {
+      "hash": 12793173976621958890,
+      "files": [
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_LockedA_40px.png",
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_Locked_40px.png"
+      ],
+      "wasted_bytes": 6709
+    },
+    {
+      "hash": 12110795499041314742,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Duplicate.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Duplicate.png"
+      ],
+      "wasted_bytes": 156926
+    },
+    {
+      "hash": 16954514329228999041,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SortDownArrows.png",
+        "Content\\Slate\\Common\\SortDownArrows.png"
+      ],
+      "wasted_bytes": 1217
+    },
+    {
+      "hash": 10085519782828474045,
+      "files": [
+        "Content\\Editor\\Slate\\DynamicMaterial\\Icons\\EditorIcons\\BaseToggle_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_class_16x.png"
+      ],
+      "wasted_bytes": 2982
+    },
+    {
+      "hash": 1973767802632001628,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Blueprint_Timeline_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_TimecodeProvider_16x.png"
+      ],
+      "wasted_bytes": 3100
+    },
+    {
+      "hash": 3137132131497859938,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\cursor_cardinal_cross.png",
+        "Content\\Slate\\Icons\\cursor_cardinal_cross.png"
+      ],
+      "wasted_bytes": 400
+    },
+    {
+      "hash": 6968869764367386421,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\Tab_Foreground.png",
+        "Content\\Slate\\Docking\\Tab_Foreground.png"
+      ],
+      "wasted_bytes": 2832
+    },
+    {
+      "hash": 3363937233419907173,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\CloseApp_Pressed.png",
+        "Content\\Editor\\Slate\\Icons\\GenericDelete_Pressed.png"
+      ],
+      "wasted_bytes": 3027
+    },
+    {
+      "hash": 17409835323199827094,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelSequenceActor_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelSequence_64x.png"
+      ],
+      "wasted_bytes": 8436
+    },
+    {
+      "hash": 3045291882852420634,
+      "files": [
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_Actions_24x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_General_Options_24x.png"
+      ],
+      "wasted_bytes": 5955
+    },
+    {
+      "hash": 6890858804826899038,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\AppTab_Active.png",
+        "Content\\Editor\\Slate\\Docking\\AppTab_Foreground.png",
+        "Content\\Slate\\Docking\\AppTab_Active.png"
+      ],
+      "wasted_bytes": 7098
+    },
+    {
+      "hash": 4040844094774086509,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\ScrollBorderShadowBottom.png",
+        "Content\\Editor\\Slate\\Common\\ScrollBoxShadowBottom.png"
+      ],
+      "wasted_bytes": 3003
+    },
+    {
+      "hash": 6931629143869090630,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\ActorIcons\\box_16px.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\Box_16x.png"
+      ],
+      "wasted_bytes": 37529
+    },
+    {
+      "hash": 13438698415686631772,
+      "files": [
+        "Content\\Editor\\Slate\\Persona\\StateMachineEditor\\Trans_Node_Icon.png",
+        "Content\\Editor\\Slate\\Persona\\StateMachineEditor\\Trans_Node_Icon_Inertialization.png"
+      ],
+      "wasted_bytes": 295
+    },
+    {
+      "hash": 7927192868747801776,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Restore_Pressed.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Restore_Pressed.png"
+      ],
+      "wasted_bytes": 470
+    },
+    {
+      "hash": 8742342828658859270,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButton.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButton.png"
+      ],
+      "wasted_bytes": 3108
+    },
+    {
+      "hash": 9256783507481650737,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesBottom_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Vertical_Bottom.png"
+      ],
+      "wasted_bytes": 240
+    },
+    {
+      "hash": 18320087747217244751,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\CellBorder.png",
+        "Content\\Editor\\Slate\\Common\\ColumnBorder.png",
+        "Content\\Editor\\Slate\\Common\\ReadOnlyCellBorder.png"
+      ],
+      "wasted_bytes": 5612
+    },
+    {
+      "hash": 11877096243691543590,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Kismet2\\CompileStatus_Fail.png",
+        "Content\\Editor\\Slate\\PropertyView\\ExperimentalClassWarning.png"
+      ],
+      "wasted_bytes": 6284
+    },
+    {
+      "hash": 10790675633904075549,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Actor_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\FoliageType_Actor_64x.png"
+      ],
+      "wasted_bytes": 6690
+    },
+    {
+      "hash": 4148832207789699886,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Paste.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Paste.png"
+      ],
+      "wasted_bytes": 133555
+    },
+    {
+      "hash": 16625338303188226251,
+      "files": [
+        "Content\\Editor\\Slate\\DynamicMaterial\\Icons\\EditorIcons\\MaskToggle_16x.png",
+        "Content\\Editor\\Slate\\UMG\\icon_umg_Overlay_16x.png"
+      ],
+      "wasted_bytes": 17744
+    },
+    {
+      "hash": 2573312876775764730,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Enable_Profiling_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_Stats_40x.png"
+      ],
+      "wasted_bytes": 5320
+    },
+    {
+      "hash": 15589601172683564140,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Play.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Play.png"
+      ],
+      "wasted_bytes": 135952
+    },
+    {
+      "hash": 7212290758782461090,
+      "files": [
+        "Content\\Editor\\Slate\\Sequencer\\Section\\CollapsedSelectedSectionOverlay.png",
+        "Content\\Editor\\Slate\\Sequencer\\Section\\SectionHeaderSelectedSectionOverlay.png"
+      ],
+      "wasted_bytes": 952
+    },
+    {
+      "hash": 4700413593198906325,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Placement_AllContent_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Placement_FilterAll_40x.png"
+      ],
+      "wasted_bytes": 35012
+    },
+    {
+      "hash": 17838208518913594668,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallCheckBox_Undetermined.png",
+        "Content\\Slate\\Common\\SmallCheckBox_Undetermined.png"
+      ],
+      "wasted_bytes": 2858
+    },
+    {
+      "hash": 2713909934566320217,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_MatEd_Plane_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Show_Floor_40px.png"
+      ],
+      "wasted_bytes": 4614
+    },
+    {
+      "hash": 11636729724354738477,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\UMG\\ToggleOutlines.png",
+        "Content\\Editor\\Slate\\Old\\DashedBorder.png"
+      ],
+      "wasted_bytes": 2935
+    },
+    {
+      "hash": 4475399721392185364,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_ImportLODs_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_StaticMeshEd_AdditionalData_40x.png"
+      ],
+      "wasted_bytes": 9229
+    },
+    {
+      "hash": 11665175830448370616,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Kismet2\\CompileStatus_Good.png",
+        "Content\\Editor\\Slate\\Settings\\Settings_Good.png"
+      ],
+      "wasted_bytes": 6658
+    },
+    {
+      "hash": 13693637332257743074,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Minimize_Normal.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Minimize_Normal.png"
+      ],
+      "wasted_bytes": 367
+    },
+    {
+      "hash": 16539385328438468964,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_invisible_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_levels_invisible_16px.png"
+      ],
+      "wasted_bytes": 3256
+    },
+    {
+      "hash": 5704976858870333587,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\RadioButton_SelectedBack_16x.png",
+        "Content\\Slate\\Common\\RadioButton_SelectedBack_16x.png"
+      ],
+      "wasted_bytes": 3031
+    },
+    {
+      "hash": 219032588656370395,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Graph\\ExecPin_Connected.png",
+        "Content\\Editor\\Slate\\Old\\Graph\\PosePin_Connected.png"
+      ],
+      "wasted_bytes": 2924
+    },
+    {
+      "hash": 12029646823435420827,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_file_ProjectNew_40x.png",
+        "Content\\SlateFileDialogs\\Icons\\icon_new_folder_40x.png"
+      ],
+      "wasted_bytes": 5622
+    },
+    {
+      "hash": 486271017679222388,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\MarkedAsCurrent.png",
+        "Content\\Editor\\Slate\\Sequencer\\Star.png"
+      ],
+      "wasted_bytes": 405
+    },
+    {
+      "hash": 8552755689431563614,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallRoundedButtonCentre.png",
+        "Content\\Slate\\Icons\\PIEWindow\\SmallRoundedButtonCentre.png"
+      ],
+      "wasted_bytes": 287
+    },
+    {
+      "hash": 18026417048367430623,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\FontFace_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Font_16x.png"
+      ],
+      "wasted_bytes": 18804
+    },
+    {
+      "hash": 2639058414358610132,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimComposite_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimSequence_64x.png"
+      ],
+      "wasted_bytes": 4414
+    },
+    {
+      "hash": 1293819013668407291,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\ProgressBar_Background.png",
+        "Content\\Editor\\Slate\\TreeMap\\TreeMap_NodeBackground.png"
+      ],
+      "wasted_bytes": 2992
+    },
+    {
+      "hash": 14456698134476166075,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_advance_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_step_40x.png"
+      ],
+      "wasted_bytes": 4442
+    },
+    {
+      "hash": 3137369193093163083,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Gizmo.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Gizmo.png"
+      ],
+      "wasted_bytes": 179237
+    },
+    {
+      "hash": 2701729537909043411,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\FoliageEditMode\\icon_FoliageEditMode_RemoveSettings_12x.png",
+        "Content\\Slate\\Icons\\Profiler\\profiler_CulledEvents_12x.png"
+      ],
+      "wasted_bytes": 2979
+    },
+    {
+      "hash": 7982347260184190859,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\Lit.png",
+        "Content\\Slate\\Testing\\Lit.png"
+      ],
+      "wasted_bytes": 3487
+    },
+    {
+      "hash": 5692016653781575369,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\UserWidget_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\WidgetBlueprintGeneratedClass_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\WidgetBlueprint_64x.png"
+      ],
+      "wasted_bytes": 38474
+    },
+    {
+      "hash": 8015083453224984610,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\BlankIcon.png",
+        "Content\\Editor\\Slate\\PropertyView\\DetailCategoryMiddle.png"
+      ],
+      "wasted_bytes": 2809
+    },
+    {
+      "hash": 15759634366236234406,
+      "files": [
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_FollowBoundsB_40px.png",
+        "Content\\Editor\\Slate\\Persona\\Viewport\\Camera_FollowBounds_40px.png"
+      ],
+      "wasted_bytes": 6633
+    },
+    {
+      "hash": 9227336163136481118,
+      "files": [
+        "Content\\Editor\\Slate\\Graph\\MathNode_shadow_selected.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\PhysicsNode_shadow_selected.png"
+      ],
+      "wasted_bytes": 3643
+    },
+    {
+      "hash": 11775161159516884154,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\FlatColorSquare.png",
+        "Content\\Editor\\Slate\\Tutorials\\FlatColorSquare.png",
+        "Content\\Slate\\Testing\\FlatColorSquare.png"
+      ],
+      "wasted_bytes": 5582
+    },
+    {
+      "hash": 14650405509727349095,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Maximize_Normal.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Maximize_Normal.png"
+      ],
+      "wasted_bytes": 394
+    },
+    {
+      "hash": 15220786459877122446,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_exposevarforinstance_on_16x.png",
+        "Content\\Editor\\Slate\\Old\\AnimEditor\\VisibilityEyeOn.png"
+      ],
+      "wasted_bytes": 500
+    },
+    {
+      "hash": 16678633089403689768,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Redo.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Redo.png"
+      ],
+      "wasted_bytes": 126749
+    },
+    {
+      "hash": 10309984787501948163,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Edit.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Edit.png"
+      ],
+      "wasted_bytes": 185157
+    },
+    {
+      "hash": 13914920890703687716,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_file_new_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Sequencer_AddObject_40x.png"
+      ],
+      "wasted_bytes": 5190
+    },
+    {
+      "hash": 2062247638253182010,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Kismet2\\Log_Warning.png",
+        "Content\\Slate\\Automation\\NoSessionWarning.png"
+      ],
+      "wasted_bytes": 2964
+    },
+    {
+      "hash": 12403675404404721254,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Simulate.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Simulate.png"
+      ],
+      "wasted_bytes": 166035
+    },
+    {
+      "hash": 5760929434521786255,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\Star_16x.png",
+        "Content\\Editor\\Slate\\Old\\Favorites_Disabled.png"
+      ],
+      "wasted_bytes": 715
+    },
+    {
+      "hash": 11378818063640000783,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Actors.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Actors.png"
+      ],
+      "wasted_bytes": 178658
+    },
+    {
+      "hash": 15646461533264968598,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\CloseApp_Hovered.png",
+        "Content\\Editor\\Slate\\Icons\\GenericDelete_Hovered.png"
+      ],
+      "wasted_bytes": 3106
+    },
+    {
+      "hash": 8939322552909514910,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Mesh_Paint.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Mesh_Paint.png"
+      ],
+      "wasted_bytes": 168341
+    },
+    {
+      "hash": 7565865818236770386,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBack_40px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_ViewMode_ViewBack_40x.png"
+      ],
+      "wasted_bytes": 18721
+    },
+    {
+      "hash": 10277228878687783542,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\MessageLog\\icon_MessageLog_Warning_14x.png",
+        "Content\\Editor\\Slate\\Persona\\AnimSlotManager\\icon_Warning_14x.png"
+      ],
+      "wasted_bytes": 18088
+    },
+    {
+      "hash": 8922998950195285023,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\FilterSearch.png",
+        "Content\\Editor\\Slate\\Old\\Kismet2\\WatchIcon.png"
+      ],
+      "wasted_bytes": 613
+    },
+    {
+      "hash": 10251164496838813564,
+      "files": [
+        "Content\\Tutorial\\Installation\\TutorialAssets\\DownloadXCode.png",
+        "Content\\Tutorial\\Mobile\\TutorialAssets\\DownloadXCode.png"
+      ],
+      "wasted_bytes": 172098
+    },
+    {
+      "hash": 12136799901737975182,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\CascadeIcons\\icon_Cascade_DeleteLOD_40x.png",
+        "Content\\Editor\\Slate\\SequenceRecorder\\icon_RemoveRecording_40x.png"
+      ],
+      "wasted_bytes": 9229
+    },
+    {
+      "hash": 14482558223072411183,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Close_Normal.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Close_Normal.png"
+      ],
+      "wasted_bytes": 786
+    },
+    {
+      "hash": 2486921720911721421,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Foilage.png",
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Foliage.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Foilage.png"
+      ],
+      "wasted_bytes": 314108
+    },
+    {
+      "hash": 4647127644657113118,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimLayerInterface_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\BlueprintInterface_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Interface_64x.png"
+      ],
+      "wasted_bytes": 18132
+    },
+    {
+      "hash": 1703465137331860411,
+      "files": [
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\icon_PhAT_Sphyl_40x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\icon_PhAT_TaperedCapsule_40x.png"
+      ],
+      "wasted_bytes": 7235
+    },
+    {
+      "hash": 12552312795257299226,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LightmassCharacterIndirectDetailVolume_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\VolumetricLightmapDensityVolume_64x.png"
+      ],
+      "wasted_bytes": 8108
+    },
+    {
+      "hash": 6205078732009061560,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Pause.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Pause.png"
+      ],
+      "wasted_bytes": 132932
+    },
+    {
+      "hash": 10064146048825559060,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesTop_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Vertical_Top.png"
+      ],
+      "wasted_bytes": 240
+    },
+    {
+      "hash": 6367746458697486770,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesLeft_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Horizontal_Left.png"
+      ],
+      "wasted_bytes": 232
+    },
+    {
+      "hash": 5062575074957495333,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_AddMacro.png",
+        "Content\\Editor\\Slate\\Icons\\icon_TrackAddCurve_36x24px.png"
+      ],
+      "wasted_bytes": 3280
+    },
+    {
+      "hash": 17169230010787988316,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AcceptMergeSource_40x.png",
+        "Content\\Editor\\Slate\\Icons\\HarvestBlueprintFromActors_40x.png"
+      ],
+      "wasted_bytes": 33767
+    },
+    {
+      "hash": 16543865107242354766,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_tab_Toolbars_16x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\icon_ToolsTab_16x.png"
+      ],
+      "wasted_bytes": 3676
+    },
+    {
+      "hash": 15341189441236952128,
+      "files": [
+        "Content\\Editor\\Slate\\ContentBrowser\\SCC_NotAtHeadRevision.png",
+        "Content\\Editor\\Slate\\Icons\\alert.png"
+      ],
+      "wasted_bytes": 3776
+    },
+    {
+      "hash": 9209553359090837183,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\Selection.png",
+        "Content\\Editor\\Slate\\Sequencer\\SectionAreaBackground.png"
+      ],
+      "wasted_bytes": 2802
+    },
+    {
+      "hash": 5082726960950066591,
+      "files": [
+        "Content\\Editor\\Slate\\Launcher\\Android\\Platform_Android_24x.png",
+        "Content\\Editor\\Slate\\Launcher\\Android\\Platform_Android_ASTC_24x.png",
+        "Content\\Editor\\Slate\\Launcher\\Android\\Platform_Android_ES31_24x.png",
+        "Content\\Editor\\Slate\\Launcher\\Android\\Platform_Android_GL4_24x.png"
+      ],
+      "wasted_bytes": 15351
+    },
+    {
+      "hash": 3586131744874402240,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Flashlight.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Flashlight.png"
+      ],
+      "wasted_bytes": 145628
+    },
+    {
+      "hash": 17328511646635504296,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\DropZoneIndicator_Above.png",
+        "Content\\Editor\\Slate\\DynamicMaterial\\Images\\DropIndicators\\DropZoneIndicator_Above.png",
+        "Content\\Slate\\Common\\DropZoneIndicator_Above.png"
+      ],
+      "wasted_bytes": 31332
+    },
+    {
+      "hash": 1439046790928062708,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\GraphEditor\\icon_AlignNodesCenter_20px.png",
+        "Content\\Editor\\Slate\\Icons\\UMG\\Alignment\\Horizontal_Center.png"
+      ],
+      "wasted_bytes": 227
+    },
+    {
+      "hash": 13016306765267124980,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\RadialForceActor_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\RadialForceComponent_64x.png"
+      ],
+      "wasted_bytes": 10098
+    },
+    {
+      "hash": 16757359553203923044,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelInstance_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\World_64x.png"
+      ],
+      "wasted_bytes": 8125
+    },
+    {
+      "hash": 11354599561344162427,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Snaps.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Snaps.png"
+      ],
+      "wasted_bytes": 174293
+    },
+    {
+      "hash": 5776524175715369196,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\padlock_locked_16x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_Locked_16x.png"
+      ],
+      "wasted_bytes": 247
+    },
+    {
+      "hash": 431129335057531650,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\PhysicsConstraintActor_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\PhysicsConstraintComponent_64x.png"
+      ],
+      "wasted_bytes": 7254
+    },
+    {
+      "hash": 5573888931584907122,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\ActorIcons\\Sphere_16px.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\Sphere_16x.png"
+      ],
+      "wasted_bytes": 37515
+    },
+    {
+      "hash": 8485160714111609777,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_eject_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_placementmode_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_PlayDefaultPlayerStart_40x.png"
+      ],
+      "wasted_bytes": 11654
+    },
+    {
+      "hash": 334031291823060030,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Animation_Duplicate_Retarget_Skeleton_16x.png",
+        "Content\\Editor\\Slate\\Persona\\SkeletonTree\\icon_LODBone_16x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\Bone_16x.png"
+      ],
+      "wasted_bytes": 79962
+    },
+    {
+      "hash": 12268355580091945295,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\SequencerIcons\\icon_Sequencer_CinematicShot_16x.png",
+        "Content\\Editor\\Slate\\Icons\\SequencerIcons\\icon_Sequencer_Sub_16x.png"
+      ],
+      "wasted_bytes": 3444
+    },
+    {
+      "hash": 12251221377333483287,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\padlock_unlocked_16x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_Unlocked_16x.png"
+      ],
+      "wasted_bytes": 250
+    },
+    {
+      "hash": 17152155709347174742,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\ComboArrow.png",
+        "Content\\Editor\\Slate\\Common\\DownArrow.png"
+      ],
+      "wasted_bytes": 2824
+    },
+    {
+      "hash": 7680233310307996811,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_tab_SessionFrontend_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_SessionLauncher_40x.png"
+      ],
+      "wasted_bytes": 6538
+    },
+    {
+      "hash": 276472626537640146,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\tutorial_refresh_20x.png",
+        "Content\\Editor\\Slate\\NewsFeed\\ReloadButton.png"
+      ],
+      "wasted_bytes": 3775
+    },
+    {
+      "hash": 17343339499683576113,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Mode_GeoEdit_40px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Mode_MeshEditor_40px.png"
+      ],
+      "wasted_bytes": 37607
+    },
+    {
+      "hash": 14164098439865344634,
+      "files": [
+        "Content\\Editor\\Slate\\GenericCurveEditor\\Icons\\SettingsVisibility_48x.png",
+        "Content\\Editor\\Slate\\Sequencer\\Main_Icons\\Icon_Sequencer_View_Options_24x.png"
+      ],
+      "wasted_bytes": 604
+    },
+    {
+      "hash": 11078920270976856412,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Undo.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Undo.png"
+      ],
+      "wasted_bytes": 144272
+    },
+    {
+      "hash": 7027297995744921687,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelInstance_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\World_16x.png"
+      ],
+      "wasted_bytes": 36337
+    },
+    {
+      "hash": 14618013055737577507,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\SmallCheckBox_Undetermined_Hovered.png",
+        "Content\\Slate\\Common\\SmallCheckBox_Undetermined_Hovered.png"
+      ],
+      "wasted_bytes": 2854
+    },
+    {
+      "hash": 13238274626176549655,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\SkyLightComponent_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\SkyLight_64x.png"
+      ],
+      "wasted_bytes": 7151
+    },
+    {
+      "hash": 6158169908508545997,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_advance_512x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_step_512px.png"
+      ],
+      "wasted_bytes": 87835
+    },
+    {
+      "hash": 15639896902850936662,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_tab_SessionFrontend_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_SessionLauncher_16x.png"
+      ],
+      "wasted_bytes": 3620
+    },
+    {
+      "hash": 15200334395573844288,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_invisible_hi_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_levels_invisible_hi_16px.png"
+      ],
+      "wasted_bytes": 3119
+    },
+    {
+      "hash": 15269033284045196902,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\MainToolBar\\Resume.png",
+        "Content\\Editor\\Slate\\Old\\MainToolBar\\Simulate.png"
+      ],
+      "wasted_bytes": 4272
+    },
+    {
+      "hash": 1534558934197117834,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimBlueprint_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimInstance_64x.png"
+      ],
+      "wasted_bytes": 6783
+    },
+    {
+      "hash": 3750140561795102437,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimBlueprint_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimInstance_16x.png"
+      ],
+      "wasted_bytes": 18827
+    },
+    {
+      "hash": 8071743188922033594,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\UserWidget_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\WidgetBlueprintGeneratedClass_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\WidgetBlueprint_16x.png"
+      ],
+      "wasted_bytes": 35918
+    },
+    {
+      "hash": 223907965806101838,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\DropZoneIndicator_Below.png",
+        "Content\\Editor\\Slate\\DynamicMaterial\\Images\\DropIndicators\\DropZoneIndicator_Below.png",
+        "Content\\Slate\\Common\\DropZoneIndicator_Below.png"
+      ],
+      "wasted_bytes": 30940
+    },
+    {
+      "hash": 3992374372189193143,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\WarningStripe.png",
+        "Content\\Editor\\Slate\\PropertyView\\HazardTape.png"
+      ],
+      "wasted_bytes": 2907
+    },
+    {
+      "hash": 4656899416765183126,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\TabWellSeparator.png",
+        "Content\\Slate\\Docking\\TabWellSeparator.png"
+      ],
+      "wasted_bytes": 2802
+    },
+    {
+      "hash": 8922850051052178938,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\PhysicsThrusterComponent_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\PhysicsThruster_64x.png"
+      ],
+      "wasted_bytes": 7535
+    },
+    {
+      "hash": 12137734138592842510,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\Maximized_Checked.png",
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\RestoreFromImmersive_Normal.png"
+      ],
+      "wasted_bytes": 3042
+    },
+    {
+      "hash": 8019589055459937308,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelSequenceActor_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\LevelSequence_16x.png"
+      ],
+      "wasted_bytes": 3482
+    },
+    {
+      "hash": 160760365546112708,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\FontFace_64x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\Font_64x.png"
+      ],
+      "wasted_bytes": 6362
+    },
+    {
+      "hash": 11017594426934782204,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_exposevarforinstance_off_16x.png",
+        "Content\\Editor\\Slate\\Old\\AnimEditor\\VisibilityEyeOff.png"
+      ],
+      "wasted_bytes": 431
+    },
+    {
+      "hash": 10805566528425315671,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\Tab_Inactive.png",
+        "Content\\Slate\\Docking\\Tab_Inactive.png"
+      ],
+      "wasted_bytes": 2838
+    },
+    {
+      "hash": 2138007248578905527,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\TableViewMajorColumn.png",
+        "Content\\Slate\\Common\\TableViewMajorColumn.png"
+      ],
+      "wasted_bytes": 320
+    },
+    {
+      "hash": 17571210808360990272,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_tab_PerfTools_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_tab_Stats_16x.png"
+      ],
+      "wasted_bytes": 3510
+    },
+    {
+      "hash": 14533934375864748733,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_rotateb_16x.png",
+        "Content\\Editor\\Slate\\Persona\\Viewport\\icon_turn_table_16x.png"
+      ],
+      "wasted_bytes": 27591
+    },
+    {
+      "hash": 9545762479755752458,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\ExpansionButton_CloseOverlay.png",
+        "Content\\Slate\\Common\\ExpansionButton_CloseOverlay.png"
+      ],
+      "wasted_bytes": 468
+    },
+    {
+      "hash": 7463363329669670691,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Kismet2\\CompileStatus_Warning.png",
+        "Content\\Editor\\Slate\\PropertyView\\EarlyAccessClassWarning.png",
+        "Content\\Editor\\Slate\\Settings\\Settings_Warning.png"
+      ],
+      "wasted_bytes": 12966
+    },
+    {
+      "hash": 3172399085813295782,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_stop_40x.png",
+        "Content\\Editor\\Slate\\Icons\\LV_Stop.png"
+      ],
+      "wasted_bytes": 3779
+    },
+    {
+      "hash": 302023381479967185,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Cut.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Cut.png"
+      ],
+      "wasted_bytes": 157104
+    },
+    {
+      "hash": 17243986250044305502,
+      "files": [
+        "Content\\Slate\\Automation\\NotEnoughParticipants.png",
+        "Content\\Slate\\Automation\\ParticipantsWarning.png"
+      ],
+      "wasted_bytes": 3333
+    },
+    {
+      "hash": 8217505257215443486,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Editor_Preferences_General_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_game_settings_40x.png"
+      ],
+      "wasted_bytes": 9229
+    },
+    {
+      "hash": 2356665144311186823,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Window\\WindowButton_Minimize_Disabled.png",
+        "Content\\Slate\\Common\\Window\\WindowButton_Minimize_Disabled.png"
+      ],
+      "wasted_bytes": 3076
+    },
+    {
+      "hash": 15554828894354319821,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Menu_Background_Inverted_Border_Bold.png",
+        "Content\\Slate\\Old\\Menu_Background_Inverted_Border_Bold.png"
+      ],
+      "wasted_bytes": 350
+    },
+    {
+      "hash": 14251669274523889525,
+      "files": [
+        "Content\\Editor\\Slate\\DynamicMaterial\\Images\\Borders\\Border_Background.png",
+        "Content\\Editor\\Slate\\TreeMap\\TreeMap_Background.png"
+      ],
+      "wasted_bytes": 2967
+    },
+    {
+      "hash": 6108899059278144297,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\Wireframe.png",
+        "Content\\Slate\\Testing\\Wireframe.png"
+      ],
+      "wasted_bytes": 3368
+    },
+    {
+      "hash": 15608468325390442354,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_FunctionArgUp.png",
+        "Content\\Editor\\Slate\\Icons\\icon_PanDown.png",
+        "Content\\Editor\\Slate\\Old\\ArrowUp.png"
+      ],
+      "wasted_bytes": 5772
+    },
+    {
+      "hash": 4887084905917897194,
+      "files": [
+        "Content\\Editor\\Slate\\Common\\EditableTextSelectionBackground.png",
+        "Content\\Editor\\Slate\\NewsFeed\\UnreadCountBackground.png"
+      ],
+      "wasted_bytes": 2826
+    },
+    {
+      "hash": 756050415983826730,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_axis_world_16px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_localization_white_16x.png"
+      ],
+      "wasted_bytes": 3165
+    },
+    {
+      "hash": 12786243393351506353,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Static_Mesh_Convex_Decomposition_16x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\Convex_16x.png"
+      ],
+      "wasted_bytes": 39544
+    },
+    {
+      "hash": 16429789171776809796,
+      "files": [
+        "Content\\Editor\\Slate\\Docking\\AppTab_ColorOverlayIcon.png",
+        "Content\\Editor\\Slate\\Docking\\Tab_ColorOverlayIcon.png",
+        "Content\\Slate\\Docking\\AppTab_ColorOverlayIcon.png",
+        "Content\\Slate\\Docking\\Tab_ColorOverlayIcon.png"
+      ],
+      "wasted_bytes": 12090
+    },
+    {
+      "hash": 17293910526464621562,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\ActorIcons\\Capsule_16px.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\Sphyl_16x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\TaperedCapsule_16x.png"
+      ],
+      "wasted_bytes": 74552
+    },
+    {
+      "hash": 11588635910646705805,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\AnimEditor\\BlendSpace_Sample_Highlight.png",
+        "Content\\Editor\\Slate\\Old\\MenuItemRadioButton_On.png"
+      ],
+      "wasted_bytes": 3428
+    },
+    {
+      "hash": 3018701927887861267,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Blueprint_EventGraph_16x.png",
+        "Content\\Editor\\Slate\\PhysicsAssetEditor\\icon_GraphTab_16x.png"
+      ],
+      "wasted_bytes": 3829
+    },
+    {
+      "hash": 9436285256795159519,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_AnimCurve_Previewer_16x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_Morph_Target_Previewer_16x.png"
+      ],
+      "wasted_bytes": 38172
+    },
+    {
+      "hash": 17199630959961155087,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\LevelViewportToolBar\\Unlit.png",
+        "Content\\Slate\\Testing\\Unlit.png"
+      ],
+      "wasted_bytes": 3440
+    },
+    {
+      "hash": 11363734996504334645,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_add_40x.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Persona_SetKey_40x.png"
+      ],
+      "wasted_bytes": 849
+    },
+    {
+      "hash": 6714278303461855481,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\Graph\\ExecPin_Disconnected.png",
+        "Content\\Editor\\Slate\\Old\\Graph\\PosePin_Disconnected.png"
+      ],
+      "wasted_bytes": 2959
+    },
+    {
+      "hash": 1893638445501404,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\AnimLayerInterface_16x.png",
+        "Content\\Editor\\Slate\\Icons\\AssetIcons\\BlueprintInterface_16x.png"
+      ],
+      "wasted_bytes": 18857
+    },
+    {
+      "hash": 14655051953046963304,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\PropertyEditor\\Button_Clear.png",
+        "Content\\Slate\\Icons\\notificationlist_fail.png"
+      ],
+      "wasted_bytes": 274
+    },
+    {
+      "hash": 11225755139434278000,
+      "files": [
+        "Content\\Editor\\Slate\\Old\\PropertyEditor\\CategoryBackground.png",
+        "Content\\Editor\\Slate\\Old\\SelectionDetails\\TitleBackground.png"
+      ],
+      "wasted_bytes": 3014
+    },
+    {
+      "hash": 8775750742039942694,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\icon_Placement_AllContent_20px.png",
+        "Content\\Editor\\Slate\\Icons\\icon_Placement_FilterAll_20px.png"
+      ],
+      "wasted_bytes": 4179
+    },
+    {
+      "hash": 8638163835096412718,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\VREditor\\T_Radial_Delete.png",
+        "Content\\VREditor\\Radial_Icons\\T_Radial_Delete.png"
+      ],
+      "wasted_bytes": 196346
+    },
+    {
+      "hash": 6798565685303858483,
+      "files": [
+        "Content\\Editor\\Slate\\Icons\\contentbrowser_16x.png",
+        "Content\\Editor\\Slate\\Icons\\pillarray_16x.png",
+        "Content\\Editor\\Slate\\Old\\LevelEditor\\MouseSpeed.png"
+      ],
+      "wasted_bytes": 5638
+    }
+  ],
+  "shader_analysis": null,
+  "estimated_savings_seconds": 59.260000000000005,
+  "recommendations": [
+    {
+      "priority": "High",
+      "category": "Startup",
+      "message": "47% of assets are loaded at startup. Consider lazy loading.",
+      "estimated_impact_seconds": 4.708281409312337
+    },
+    {
+      "priority": "Medium",
+      "category": "Textures",
+      "message": "3601 textures found. Consider using texture streaming.",
+      "estimated_impact_seconds": 5.0
+    }
+  ]
+}

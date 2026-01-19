@@ -10,23 +10,9 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
-	"CanContainContent": false,
-	"IsBetaVersion": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
-	"EnabledByDefault": true,
-	"EngineVersion": "5.7.1",
-	"Modules": [
-		{
-			"Name": "FastStartup",
-			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit"
-		},
-		{
-			"Name": "FastStartupCore",
-			"Type": "Runtime",
-			"LoadingPhase": "PreDefault"
-		}
-	],
-	"Plugins": []
+	"Installed": true,
+	"EnabledByDefault": true
 }
