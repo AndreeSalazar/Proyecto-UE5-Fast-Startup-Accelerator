@@ -1,0 +1,10 @@
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Proyecto UE5 Fast Startup Accelerator\rust-analyzer\target\release\deps\thread_local-3188b52a803b20ca.d: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\cached.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\thread_id.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\unreachable.rs
+
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Proyecto UE5 Fast Startup Accelerator\rust-analyzer\target\release\deps\libthread_local-3188b52a803b20ca.rlib: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\cached.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\thread_id.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\unreachable.rs
+
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Proyecto UE5 Fast Startup Accelerator\rust-analyzer\target\release\deps\libthread_local-3188b52a803b20ca.rmeta: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\cached.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\thread_id.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\unreachable.rs
+
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\lib.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\cached.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\thread_id.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thread_local-1.1.9\src\unreachable.rs:

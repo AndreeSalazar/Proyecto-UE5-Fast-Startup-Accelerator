@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Fast Startup Accelerator",
+	"Description": "Reduces Unreal Engine 5 editor startup times by precomputing asset dependencies using a high-performance Rust + SIMD pipeline.",
+	"Category": "Editor",
+	"CreatedBy": "Eddi Andreé Salazar Matos",
+	"CreatedByURL": "https://github.com/AndreeSalazar",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"EngineVersion": "5.7.1",
+	"Modules": [
+		{
+			"Name": "FastStartup",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "FastStartupCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": []
+}

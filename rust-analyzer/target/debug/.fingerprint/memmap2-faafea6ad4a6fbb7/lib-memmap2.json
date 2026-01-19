@@ -1,0 +1,1 @@
+{"rustc":2490638836439573635,"features":"[]","declared_features":"[\"stable_deref_trait\"]","target":7046238114355185199,"profile":11876527447619405325,"path":15212333808909054924,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug\\.fingerprint\\memmap2-faafea6ad4a6fbb7\\dep-lib-memmap2","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}
