@@ -123,6 +123,28 @@ enum Commands {
         #[arg(short, long, default_value = "3")]
         iterations: u32,
     },
+
+    /// TURBO mode - ultra-fast cache with sampling
+    Turbo {
+        /// Path to UE5 project root
+        #[arg(short, long)]
+        project: PathBuf,
+
+        /// Output cache file (.uefast)
+        #[arg(short, long)]
+        output: PathBuf,
+    },
+
+    /// Quick verify - fast change detection
+    QuickVerify {
+        /// Path to cache file
+        #[arg(short, long)]
+        cache: PathBuf,
+
+        /// Path to UE5 project root
+        #[arg(short, long)]
+        project: PathBuf,
+    },
 }
 
 fn main() -> Result<()> {
@@ -166,6 +188,12 @@ fn main() -> Result<()> {
         }
         Commands::Bench { project, iterations } => {
             cmd_bench(project, iterations)
+        }
+        Commands::Turbo { project, output } => {
+            cmd_turbo(project, output)
+        }
+        Commands::QuickVerify { cache, project } => {
+            cmd_quick_verify(cache, project)
         }
     }
 }
@@ -319,6 +347,136 @@ fn cmd_bench(project: PathBuf, iterations: u32) -> Result<()> {
     info!("Results:");
     info!("  Average scan time: {:.3}s", avg_scan);
     info!("  Average hash time (100 assets): {:.3}s", avg_hash);
+
+    Ok(())
+}
+
+/// TURBO mode - ultra-fast cache building with sampling
+fn cmd_turbo(project: PathBuf, output: PathBuf) -> Result<()> {
+    use rayon::prelude::*;
+    use std::time::Instant;
+
+    info!("⚡ TURBO MODE - Ultra-fast cache building");
+    info!("Project: {}", project.display());
+
+    let start = Instant::now();
+
+    // Step 1: Fast path-only scan
+    info!("[1/3] Turbo scanning...");
+    let scanner = AssetScanner::new(&project)?;
+    let paths = scanner.scan_paths_only()?;
+    info!("  Found {} assets in {:.2}ms", paths.len(), start.elapsed().as_millis());
+
+    // Step 2: Parallel turbo hashing with sampling
+    info!("[2/3] Turbo hashing with sampling...");
+    let hash_start = Instant::now();
+    
+    let hashes: Vec<_> = paths
+        .par_iter()
+        .filter_map(|path| {
+            ue5_fast_startup::hash::turbo_hash(path)
+                .ok()
+                .map(|h| (path.clone(), h.as_u64()))
+        })
+        .collect();
+
+    info!("  Hashed {} files in {:.2}ms", hashes.len(), hash_start.elapsed().as_millis());
+
+    // Step 3: Build minimal cache
+    info!("[3/3] Building turbo cache...");
+    let project_name = project
+        .file_name()
+        .map(|n| n.to_string_lossy().to_string())
+        .unwrap_or_else(|| "Unknown".to_string());
+
+    let mut cache = ue5_fast_startup::cache::StartupCache::new(&project_name);
+    
+    for (path, hash) in hashes {
+        let relative = path.strip_prefix(&project)
+            .unwrap_or(&path)
+            .to_string_lossy()
+            .to_string();
+        
+        let ext = path.extension()
+            .and_then(|e| e.to_str())
+            .unwrap_or("");
+        
+        cache.assets.push(ue5_fast_startup::cache::CachedAsset {
+            relative_path: relative,
+            asset_type: ue5_fast_startup::scanner::AssetType::from_extension(ext),
+            content_hash: hash,
+            size_bytes: std::fs::metadata(&path).map(|m| m.len()).unwrap_or(0),
+            load_order: 0,
+            is_startup_critical: false,
+        });
+    }
+
+    cache.save(&output)?;
+
+    let total_time = start.elapsed();
+    info!("⚡ TURBO COMPLETE in {:.2}ms", total_time.as_millis());
+    info!("  Assets: {}", cache.asset_count());
+    info!("  Cache size: {} KB", cache.size_bytes() / 1024);
+    info!("  Throughput: {:.0} assets/sec", cache.asset_count() as f64 / total_time.as_secs_f64());
+
+    Ok(())
+}
+
+/// Quick verify - fast change detection using turbo hashing
+fn cmd_quick_verify(cache_path: PathBuf, project: PathBuf) -> Result<()> {
+    use rayon::prelude::*;
+    use std::time::Instant;
+
+    info!("⚡ Quick verify: {}", cache_path.display());
+
+    let start = Instant::now();
+
+    let cache = ue5_fast_startup::cache::StartupCache::load(&cache_path)?;
+    
+    // Build hash map of cached assets
+    let cached_hashes: std::collections::HashMap<_, _> = cache.assets
+        .iter()
+        .map(|a| (a.relative_path.clone(), a.content_hash))
+        .collect();
+
+    // Quick scan current assets
+    let scanner = AssetScanner::new(&project)?;
+    let paths = scanner.scan_paths_only()?;
+
+    // Parallel quick hash and compare
+    let changes: Vec<_> = paths
+        .par_iter()
+        .filter_map(|path| {
+            let relative = path.strip_prefix(&project)
+                .ok()?
+                .to_string_lossy()
+                .to_string();
+            
+            let current_hash = ue5_fast_startup::hash::turbo_hash(path).ok()?.as_u64();
+            
+            match cached_hashes.get(&relative) {
+                Some(&cached_hash) if cached_hash != current_hash => {
+                    Some(relative)
+                }
+                None => Some(relative), // New file
+                _ => None, // Unchanged
+            }
+        })
+        .collect();
+
+    let elapsed = start.elapsed();
+
+    if changes.is_empty() {
+        info!("✓ No changes detected in {:.2}ms", elapsed.as_millis());
+    } else {
+        info!("⚠ {} changes detected in {:.2}ms", changes.len(), elapsed.as_millis());
+        for change in changes.iter().take(10) {
+            info!("  - {}", change);
+        }
+        if changes.len() > 10 {
+            info!("  ... and {} more", changes.len() - 10);
+        }
+    }
 
     Ok(())
 }

@@ -1,0 +1,9 @@
+cargo:rerun-if-changed=asm/
+cargo:rerun-if-changed=build.rs
+cargo:warning=Found NASM at: nasm
+cargo:warning=Compiling hash_simd.asm -> hash_simd.obj
+cargo:warning=Successfully compiled hash_simd.asm
+cargo:warning=Compiling memcpy_fast.asm -> memcpy_fast.obj
+cargo:warning=Successfully compiled memcpy_fast.asm
+cargo:warning=Compiling scan_chunk.asm -> scan_chunk.obj
+cargo:warning=Successfully compiled scan_chunk.asm

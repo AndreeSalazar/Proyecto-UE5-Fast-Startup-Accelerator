@@ -1,17 +1,23 @@
-//! Hash Module
+//! Hash Module - ULTRA OPTIMIZED
 //! Copyright 2026 Eddi Andreé Salazar Matos
 //! Licensed under Apache 2.0
 //!
 //! High-performance content hashing with ASM SIMD acceleration
+//! Optimized for maximum throughput with prefetch and parallel processing
 
 use crate::asm_bindings::HashState;
 use crate::Result;
 use memmap2::Mmap;
+use rayon::prelude::*;
 use std::fs::File;
 use std::path::Path;
+#[allow(unused_imports)]
+use std::path::PathBuf;
 use xxhash_rust::xxh3::xxh3_64;
 
-pub const CHUNK_SIZE: usize = 64 * 1024; // 64KB chunks
+pub const CHUNK_SIZE: usize = 256 * 1024; // 256KB chunks for better throughput
+pub const SMALL_FILE_THRESHOLD: u64 = 4 * 1024; // 4KB - read directly
+pub const MMAP_THRESHOLD: u64 = 64 * 1024; // 64KB - use mmap above this
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct ContentHash(pub u64);
@@ -32,20 +38,82 @@ impl std::fmt::Display for ContentHash {
     }
 }
 
-/// Hash a file using memory-mapped I/O and SIMD acceleration
+/// ULTRA-OPTIMIZED file hashing with adaptive I/O strategy
 pub fn hash_file(path: &Path) -> Result<ContentHash> {
     let file = File::open(path)?;
     let metadata = file.metadata()?;
+    let len = metadata.len();
     
-    // For small files, read directly
-    if metadata.len() < CHUNK_SIZE as u64 {
+    // Strategy 1: Very small files - direct read (fastest for tiny files)
+    if len < SMALL_FILE_THRESHOLD {
+        let data = std::fs::read(path)?;
+        return Ok(hash_bytes(&data));
+    }
+    
+    // Strategy 2: Small-medium files - buffered read
+    if len < MMAP_THRESHOLD {
         let data = std::fs::read(path)?;
         return Ok(hash_bytes(&data));
     }
 
-    // For large files, use memory mapping
+    // Strategy 3: Large files - memory mapping with prefetch hint
     let mmap = unsafe { Mmap::map(&file)? };
+    
+    // Advise kernel for sequential access (prefetch optimization)
+    #[cfg(unix)]
+    {
+        use std::os::unix::io::AsRawFd;
+        unsafe {
+            libc::posix_fadvise(file.as_raw_fd(), 0, len as i64, libc::POSIX_FADV_SEQUENTIAL);
+        }
+    }
+    
     Ok(hash_bytes(&mmap))
+}
+
+/// TURBO hash - uses quick sampling for very fast change detection
+pub fn turbo_hash(path: &Path) -> Result<ContentHash> {
+    let file = File::open(path)?;
+    let metadata = file.metadata()?;
+    let len = metadata.len();
+
+    // For small files, just hash everything
+    if len < CHUNK_SIZE as u64 * 2 {
+        return hash_file(path);
+    }
+
+    let mmap = unsafe { Mmap::map(&file)? };
+    
+    // Sample: first 64KB + middle 64KB + last 64KB + file size
+    let sample_size = 64 * 1024;
+    let middle = (len as usize) / 2;
+    
+    let mut combined = Vec::with_capacity(sample_size * 3 + 8);
+    combined.extend_from_slice(&mmap[..sample_size.min(len as usize)]);
+    
+    if len as usize > sample_size * 2 {
+        combined.extend_from_slice(&mmap[middle..middle + sample_size.min(len as usize - middle)]);
+    }
+    
+    if len as usize > sample_size {
+        combined.extend_from_slice(&mmap[len as usize - sample_size..]);
+    }
+    
+    // Include file size for uniqueness
+    combined.extend_from_slice(&len.to_le_bytes());
+    
+    Ok(hash_bytes(&combined))
+}
+
+/// Batch hash multiple files with maximum parallelism
+pub fn hash_files_batch(paths: &[PathBuf]) -> Vec<(PathBuf, Option<ContentHash>)> {
+    paths
+        .par_iter()
+        .map(|path| {
+            let hash = hash_file(path).ok();
+            (path.clone(), hash)
+        })
+        .collect()
 }
 
 /// Hash bytes using xxHash with optional ASM acceleration

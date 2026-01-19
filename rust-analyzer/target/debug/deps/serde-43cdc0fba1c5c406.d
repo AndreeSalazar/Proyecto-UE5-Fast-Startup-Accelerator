@@ -1,0 +1,12 @@
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Proyecto UE5 Fast Startup Accelerator\rust-analyzer\target\debug\deps\serde-43cdc0fba1c5c406.d: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\andre\OneDrive\Documentos\Proyectos\ personales\Proyecto\ UE5\ Fast\ Startup\ Accelerator\rust-analyzer\target\debug\build\serde-59ea37d00437ee07\out/private.rs
+
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Proyecto UE5 Fast Startup Accelerator\rust-analyzer\target\debug\deps\libserde-43cdc0fba1c5c406.rmeta: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\andre\OneDrive\Documentos\Proyectos\ personales\Proyecto\ UE5\ Fast\ Startup\ Accelerator\rust-analyzer\target\debug\build\serde-59ea37d00437ee07\out/private.rs
+
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\andre\OneDrive\Documentos\Proyectos\ personales\Proyecto\ UE5\ Fast\ Startup\ Accelerator\rust-analyzer\target\debug\build\serde-59ea37d00437ee07\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Proyecto UE5 Fast Startup Accelerator\\rust-analyzer\\target\\debug\\build\\serde-59ea37d00437ee07\\out

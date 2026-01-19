@@ -1,13 +1,13 @@
 @echo off
-REM Fast Startup Accelerator - Project Cache Builder
+REM Fast Startup Accelerator - ULTRA OPTIMIZED
 REM Copyright 2026 Eddi Andreé Salazar Matos - Apache 2.0
 
-title Fast Startup Accelerator
+title Fast Startup Accelerator - ULTRA
 
 echo.
 echo  ============================================
-echo   FAST STARTUP ACCELERATOR
-echo   Rust + SIMD powered asset pipeline
+echo   FAST STARTUP ACCELERATOR - ULTRA
+echo   Rust + SIMD + NASM powered pipeline
 echo  ============================================
 echo.
 
@@ -24,14 +24,20 @@ echo.
 
 if "%1"=="" (
     echo Usage: 
-    echo   BuildProjectCache.bat "C:\Path\To\Your\UE5Project"
+    echo   BuildProjectCache.bat "C:\Path\To\Your\UE5Project" [mode]
+    echo.
+    echo Modes:
+    echo   turbo  - Ultra-fast with sampling (default)
+    echo   full   - Complete analysis and cache
     echo.
     echo Example:
-    echo   BuildProjectCache.bat "C:\Users\MyUser\Documents\Unreal Projects\MyGame"
+    echo   BuildProjectCache.bat "C:\MyProjects\MyGame" turbo
     echo.
-    set /p PROJECT_PATH="Enter project path (or drag folder here): "
+    set /p PROJECT_PATH="Enter project path: "
+    set MODE=turbo
 ) else (
     set PROJECT_PATH=%~1
+    if "%2"=="" (set MODE=turbo) else (set MODE=%2)
 )
 
 if not exist "%PROJECT_PATH%" (
@@ -45,33 +51,53 @@ set CACHE_PATH=%PROJECT_PATH%\Saved\FastStartup
 if not exist "%CACHE_PATH%" mkdir "%CACHE_PATH%"
 
 echo.
-echo [1/3] Scanning project assets...
-echo      Project: %PROJECT_PATH%
+echo  Mode: %MODE%
+echo  Project: %PROJECT_PATH%
 echo.
 
+if /i "%MODE%"=="turbo" goto :turbo_mode
+if /i "%MODE%"=="full" goto :full_mode
+goto :turbo_mode
+
+:turbo_mode
+echo  ============================================
+echo   TURBO MODE - Maximum Speed
+echo  ============================================
+echo.
+
+"%CLI_PATH%" turbo --project "%PROJECT_PATH%" --output "%CACHE_PATH%\startup.uefast"
+
+goto :done
+
+:full_mode
+echo  ============================================
+echo   FULL MODE - Complete Analysis
+echo  ============================================
+echo.
+
+echo [1/3] Scanning project assets...
 "%CLI_PATH%" scan --project "%PROJECT_PATH%" -v
 
 echo.
 echo [2/3] Analyzing dependencies...
-echo.
-
 "%CLI_PATH%" analyze --project "%PROJECT_PATH%" --output "%CACHE_PATH%\analysis.json" -v
 
 echo.
 echo [3/3] Building startup cache...
-echo.
-
 "%CLI_PATH%" cache --project "%PROJECT_PATH%" --output "%CACHE_PATH%\startup.uefast" -v
 
+goto :done
+
+:done
 echo.
 echo  ============================================
 echo   CACHE BUILD COMPLETE!
 echo  ============================================
 echo.
-echo  Cache location: %CACHE_PATH%\startup.uefast
-echo  Analysis:       %CACHE_PATH%\analysis.json
+echo  Cache: %CACHE_PATH%\startup.uefast
 echo.
-echo  Your UE5 project will now load faster!
+echo  To verify changes quickly:
+echo    %CLI_PATH% quick-verify -c "%CACHE_PATH%\startup.uefast" -p "%PROJECT_PATH%"
 echo.
 
 pause
